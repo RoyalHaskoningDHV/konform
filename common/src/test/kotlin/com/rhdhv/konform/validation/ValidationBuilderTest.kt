@@ -1,4 +1,4 @@
-package io.konform.validation
+package com.rhdhv.konform.validation
 
 import kotlin.test.Test
 import kotlin.test.assertEquals

@@ -1,10 +1,10 @@
-package io.konform.validation.internal
+package com.rhdhv.konform.validation.internal
 
-import io.konform.validation.Constraint
-import io.konform.validation.Valid
-import io.konform.validation.Validation
-import io.konform.validation.ValidationBuilder
-import io.konform.validation.internal.ValidationBuilderImpl.Companion.PropModifier.*
+import com.rhdhv.konform.validation.Constraint
+import com.rhdhv.konform.validation.Valid
+import com.rhdhv.konform.validation.Validation
+import com.rhdhv.konform.validation.ValidationBuilder
+import com.rhdhv.konform.validation.internal.ValidationBuilderImpl.Companion.PropModifier.*
 import kotlin.collections.Map.Entry
 import kotlin.reflect.KProperty1
 
@@ -69,7 +69,7 @@ internal class ValidationBuilderImpl<T> : ValidationBuilder<T>() {
         ) : PropKey<T>() {
             override fun build(builder: ValidationBuilderImpl<*>): Validation<T> {
                 @Suppress("UNCHECKED_CAST")
-                val validations = (builder as ValidationBuilderImpl<Map.Entry<K, V>>).build()
+                val validations = (builder as ValidationBuilderImpl<Entry<K, V>>).build()
                 return when (modifier) {
                     NonNull -> NonNullPropertyValidation(property, MapValidation(validations))
                     Optional -> OptionalPropertyValidation(property, MapValidation(validations))

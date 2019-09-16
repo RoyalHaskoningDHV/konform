@@ -1,10 +1,10 @@
-package io.konform.validation.internal
+package com.rhdhv.konform.validation.internal
 
-import io.konform.validation.Constraint
-import io.konform.validation.Invalid
-import io.konform.validation.Valid
-import io.konform.validation.Validation
-import io.konform.validation.ValidationResult
+import com.rhdhv.konform.validation.Constraint
+import com.rhdhv.konform.validation.Invalid
+import com.rhdhv.konform.validation.Valid
+import com.rhdhv.konform.validation.Validation
+import com.rhdhv.konform.validation.ValidationResult
 import kotlin.reflect.KProperty1
 
 internal class NonNullPropertyValidation<T, R>(

@@ -1,10 +1,10 @@
-package io.konform.validation
+package com.rhdhv.konform.validation
 
-import io.konform.validation.jsonschema.maxItems
-import io.konform.validation.jsonschema.minItems
-import io.konform.validation.jsonschema.minLength
-import io.konform.validation.jsonschema.minimum
-import io.konform.validation.jsonschema.pattern
+import com.rhdhv.konform.validation.jsonschema.maxItems
+import com.rhdhv.konform.validation.jsonschema.minItems
+import com.rhdhv.konform.validation.jsonschema.minLength
+import com.rhdhv.konform.validation.jsonschema.minimum
+import com.rhdhv.konform.validation.jsonschema.pattern
 import kotlin.collections.Map.Entry
 import kotlin.test.Test
 import kotlin.test.assertEquals

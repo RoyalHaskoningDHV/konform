@@ -1,6 +1,6 @@
-package io.konform.validation
+package com.rhdhv.konform.validation
 
-import io.konform.validation.internal.ValidationBuilderImpl
+import com.rhdhv.konform.validation.internal.ValidationBuilderImpl
 
 interface Validation<T> {
 
