@@ -1,5 +1,5 @@
 # Portable validations for Kotlin
-Note: this project was forked because its original maintainer seems to have abandoned it. All credit for contributions goes go to their authors. We would like to thank [Niklas Lochschmidt](https://twitter.com/niklas_l) for starting this project and contributing almost all work so far.
+Note: this project was forked because its original maintainer seems to have abandoned it. All credit for contributions goes to their authors. We would like to thank [Niklas Lochschmidt](https://twitter.com/niklas_l) for starting this project and contributing almost all work so far.
 
 
   - **✅ Type-safe DSL**
