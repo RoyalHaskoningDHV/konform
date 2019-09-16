@@ -14,7 +14,7 @@ def pomConfig = {
     }
 
     scm {
-        url "https://github.com/konform-kt/konform.git"
+        url "https://github.com/RoyalHaskoningDHV/konform.git"
     }
 }
 
@@ -22,7 +22,7 @@ def withPom = { pom ->
     pom.withXml {
         def root = asNode()
         root.appendNode('description', projectDesc)
-        root.appendNode('url', 'https://github.com/konform-kt/konform')
+        root.appendNode('url', 'https://github.com/RoyalHaskoningDHV/konform')
         root.children().last() + pomConfig
     }
 }

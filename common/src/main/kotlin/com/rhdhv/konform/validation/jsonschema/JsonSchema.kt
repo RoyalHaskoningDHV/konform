@@ -1,7 +1,7 @@
-package io.konform.validation.jsonschema
+package com.rhdhv.konform.validation.jsonschema
 
-import io.konform.validation.Constraint
-import io.konform.validation.ValidationBuilder
+import com.rhdhv.konform.validation.Constraint
+import com.rhdhv.konform.validation.ValidationBuilder
 import kotlin.math.roundToInt
 
 inline fun <reified T> ValidationBuilder<*>.type() =

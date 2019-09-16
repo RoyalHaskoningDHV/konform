@@ -1,13 +1,10 @@
-[![Build Status](https://travis-ci.org/konform-kt/konform.svg?branch=master)](https://travis-ci.org/konform-kt/konform)
-[![Bintray](https://api.bintray.com/packages/konform-kt/konform/konform/images/download.svg) ](https://bintray.com/konform-kt/konform/konform/_latestVersion)
-[![Maven Central](https://maven-badges.herokuapp.com/maven-central/io.konform/konform/badge.svg)](https://maven-badges.herokuapp.com/maven-central/io.konform/konform)
-
 # Portable validations for Kotlin
+Note: this project was forked because its original maintainer seems to have abandoned it. All credit for contributions goes go to their authors. We would like to thank [Niklas Lochschmidt](https://twitter.com/niklas_l) for starting this project and contributing almost all work so far.
+
 
   - **✅ Type-safe DSL**
   - **🔗 Multi-platform support** (JVM, JS)
   - **🐥 Zero dependencies**
-  - 🗣 i18n-support (*coming soon*)
 
 ### Installation
 
@@ -15,18 +12,18 @@ Add the konform bintray repository to your build.gradle
 
 ```groovy
 repositories {
-    maven { url "https://dl.bintray.com/konform-kt/konform" }
+    maven { url "https://dl.bintray.com/rhdhv/konform" }
 }
 ```
 
 Depending on your type of Kotlin project add one of these dependencies:
 
 - JVM:   
-`implementation 'io.konform:konform:0.1.0'`
+`implementation 'com.rhdhv:konform:0.1.1'`
 - JS:  
-`implementation 'io.konform:konform-js:0.1.0'`
+`implementation 'com.rhdhv:konform-js:0.1.1'`
 - Common:  
-`implementation 'io.konform:konform-common:0.1.0'`
+`implementation 'com.rhdhv:konform-common:0.1.1'`
 
 ### Use
 
@@ -164,7 +161,10 @@ result[Event::attendees, 0, Person::age]
 result[Event::ticketPrices, "free"]
 ```
 
-##### Author
+##### Maintainer
+[Kilian Grashoff](https://github.com/kiliangrashoff/) - Digital Lab - Royal HaskoningDHV
+
+##### Original Author
 
 [Niklas Lochschmidt](https://twitter.com/niklas_l)
 

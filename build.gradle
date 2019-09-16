@@ -1,13 +1,13 @@
 buildscript {
     ext.projectVersion = '0.2.0-SNAPSHOT'
     ext.projectName = 'konform'
-    ext.projectGroup = 'io.konform'
+    ext.projectGroup = 'com.rhdhv'
     ext.projectDesc = 'Konform: Portable validations for Kotlin'
     ext.projectHost = 'github'
-    ext.projectOrg = 'konform-kt'
+    ext.projectOrg = 'rhdhv'
     ext.projectLicense = 'MIT'
-    ext.projectDevelNick = 'nlochschmidt'
-    ext.projectDevelName = 'Niklas Lochschmidt'
+    ext.projectDevelNick = 'kiliangrashoff'
+    ext.projectDevelName = 'Kilian Grashoff'
     ext.projectInceptionYear = 2018
 
     ext.kotlinVersion = '1.2.31'
@@ -86,11 +86,11 @@ subprojects {
             licenses = [projectLicense]
             desc = projectDesc
             labels = ['kotlin', 'validation']
-            vcsUrl = 'https://github.com/konform-kt/konform.git'
-            websiteUrl = 'https://github.com/konform-kt/konform'
-            issueTrackerUrl = 'https://github.com/konform-kt/konform/issues'
+            vcsUrl = 'https://github.com/RoyalHaskoningDHV/konform'
+            websiteUrl = 'https://github.com/RoyalHaskoningDHV/konform'
+            issueTrackerUrl = 'https://github.com/RoyalHaskoningDHV/konform/issues'
 
-            githubRepo = 'konform-kt/konform'
+            githubRepo = 'RoyalHaskoningDHV/konform'
             version {
                 name = project.version
             }
